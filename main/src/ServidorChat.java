@@ -22,8 +22,6 @@ public class ServidorChat {
 
                 ConexionCliente cc = new ConexionCliente(socket, mensajes);
                 cc.start();
-
-
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -36,10 +34,6 @@ public class ServidorChat {
 
                 }
             }
-
-
     }
-
-
 }
 
